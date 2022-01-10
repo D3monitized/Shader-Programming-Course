@@ -168,3 +168,12 @@ Received Import Request.
 Start importing Assets/BasicShader.shader using Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b924b31c6832494dffaaefd1c48add5a') in 0.005405 seconds 
   Import took 0.056887 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 2483.887804 seconds.
+  path: Assets/GrassTexture.jpg
+  artifactKey: Guid(424366d0ad26e4b40954e2ffd7e35b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassTexture.jpg using Guid(424366d0ad26e4b40954e2ffd7e35b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a32d712ae5989545c1eb2aeba98e91') in 0.085624 seconds 
+  Import took 0.088770 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
