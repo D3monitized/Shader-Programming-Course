@@ -64,7 +64,7 @@ Shader "Unlit/BasicShader" { // path (not the asset path)
 
                 
                 // modify vertices
-                //v.vertex.y += cos(((v.uv0.x+_Time.y*_WaveSpeed))*_WaveLength*UNITY_PI*2)*_WaveHeight;
+                v.vertex.y += cos(((v.uv0.x+_Time.y*_WaveSpeed))*_WaveLength*UNITY_PI*2)*_WaveHeight;
                 
                 // transforms from local space to clip space
                 // usually using the matrix called UNITY_MATRIX_MVP
