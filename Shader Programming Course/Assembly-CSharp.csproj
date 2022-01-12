@@ -53,7 +53,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\test.cs" />
-     <None Include="Assets\BasicShader.shader" />
+     <None Include="Assets\SnowOnRock.shader" />
+     <None Include="Assets\BlinkShader.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
