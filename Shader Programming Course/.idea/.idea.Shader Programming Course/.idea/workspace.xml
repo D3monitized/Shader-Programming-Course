@@ -8,7 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/SnowOnRock.shader" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SnowOnRock.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,7 +63,11 @@
       <workItem from="1641821632804" duration="3517000" />
       <workItem from="1641827824858" duration="37000" />
       <workItem from="1641975837948" duration="7270000" />
-      <workItem from="1641989673004" duration="1396000" />
+      <workItem from="1641989673004" duration="1728000" />
+      <workItem from="1641993547192" duration="360000" />
+      <workItem from="1641993927981" duration="11000" />
+      <workItem from="1641993954481" duration="7693000" />
+      <workItem from="1642084254440" duration="3756000" />
     </task>
     <servers />
   </component>

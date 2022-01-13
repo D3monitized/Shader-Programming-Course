@@ -15,11 +15,11 @@ G:/Local Reposetories/Shader-Programming-Course/Shader Programming Course
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50035
+57142
 Successfully changed project path to: G:/Local Reposetories/Shader-Programming-Course/Shader Programming Course
 G:/Local Reposetories/Shader-Programming-Course/Shader Programming Course
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 20.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001593 seconds.
+Registered in 0.001226 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 21.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.809 seconds
+- Completed reload, in  0.746 seconds
 Domain Reload Profiling:
-	ReloadAssembly (809ms)
+	ReloadAssembly (746ms)
 		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (345ms)
+		EndReloadAssembly (296ms)
 			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (124ms)
+			SetupTypeCache (101ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (129ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (117ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (22ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (21ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001464 seconds.
+Registered in 0.001361 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
+- Completed reload, in  0.729 seconds
 Domain Reload Profiling:
-	ReloadAssembly (757ms)
-		BeginReloadAssembly (110ms)
+	ReloadAssembly (730ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (598ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (573ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (184ms)
+			SetupTypeCache (189ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (239ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (227ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (163ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (152ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1401 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
+Unloading 1402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.4 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1836.
-Total: 2.250700 ms (FindLiveObjects: 0.119800 ms CreateObjectMapping: 0.033400 ms MarkObjects: 2.031000 ms  DeleteObjects: 0.065100 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1837.
+Total: 1.988000 ms (FindLiveObjects: 0.108400 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.791400 ms  DeleteObjects: 0.057100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,177 +131,297 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/BasicShader.shader
-  artifactKey: Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BasicShader.shader using Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6fa06b4732e9defba49e0f044eb692') in 0.026006 seconds 
-  Import took 0.028601 seconds .
+  path: Assets/SnowOnRock.shader
+  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6a492e692a25c7a2194c40b92e45fc') in 0.023200 seconds 
+  Import took 0.024918 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.679422 seconds.
-  path: Assets/BasicShader.shader
-  artifactKey: Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BasicShader.shader using Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913c0feeafb0be8b2a5093d1dc9b21c2') in 0.003305 seconds 
-  Import took 0.005273 seconds .
+  Time since last request: 38.738575 seconds.
+  path: Assets/SnowOnRock.shader
+  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577c6de723868172c782dc9d88188505') in 0.001711 seconds 
+  Import took 0.003522 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 127.182732 seconds.
-  path: Assets/BasicShader.shader
-  artifactKey: Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BasicShader.shader using Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645334863af99323499807ff479494eb') in 0.002972 seconds 
-  Import took 0.005047 seconds .
+  Time since last request: 114.209025 seconds.
+  path: Assets/SnowOnRock.shader
+  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b140a92c02c28c9dcf4e8672947bbc') in 0.003347 seconds 
+  Import took 0.005167 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 266.392534 seconds.
-  path: Assets/BasicShader.shader
-  artifactKey: Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BasicShader.shader using Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215059364337756172470eebf09a8ade') in 0.003330 seconds 
-  Import took 0.005121 seconds .
+  Time since last request: 554.148445 seconds.
+  path: Assets/Rock_1.fbx
+  artifactKey: Guid(94c0cc47860d642409cf0e871e20d96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock_1.fbx using Guid(94c0cc47860d642409cf0e871e20d96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7558f3f03675b12a76be5edb96d1ee') in 0.297864 seconds 
+  Import took 0.300029 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.893812 seconds.
-  path: Assets/BasicShader.shader
-  artifactKey: Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BasicShader.shader using Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8f394bd3aa3ac9db6a29769d9bf4ac') in 0.001413 seconds 
-  Import took 0.003539 seconds .
+  Time since last request: 8.206700 seconds.
+  path: Assets/Rock_1.prefab
+  artifactKey: Guid(8dbf00a99d1cfe943ab705d6f0762144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock_1.prefab using Guid(8dbf00a99d1cfe943ab705d6f0762144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2529f2bf46180bdd857ab7cbd0ced9cd') in 0.009006 seconds 
+  Import took 0.010938 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1435.703031 seconds.
-  path: Assets/BasicShader.shader
-  artifactKey: Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BasicShader.shader using Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff252ad2d70c8ebd50bbd8130766020') in 0.003817 seconds 
-  Import took 0.005949 seconds .
+  Time since last request: 42.839096 seconds.
+  path: Assets/SnowOnRock.shader
+  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fb92097dc0cf9f7c4ef55d8ab7e5f9') in 0.001501 seconds 
+  Import took 0.003208 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.591787 seconds.
+  Time since last request: 60.601426 seconds.
+  path: Assets/Rock_1_Base_Color.jpg
+  artifactKey: Guid(bf833a85c727fc649abeeb007403b20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock_1_Base_Color.jpg using Guid(bf833a85c727fc649abeeb007403b20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8263af8fa18c7edaa0b1e5e08f50dd') in 0.019100 seconds 
+  Import took 0.020908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Rock_1_occlusion.jpg
+  artifactKey: Guid(5c82ec23d927e8d48b4dbbefa062317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock_1_occlusion.jpg using Guid(5c82ec23d927e8d48b4dbbefa062317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61377802ddcb1c82fede1031a7da52fa') in 0.009408 seconds 
+  Import took 0.011319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Rock_1_Glossiness.jpg
+  artifactKey: Guid(338929559a260bd44806aa88fa4f6122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock_1_Glossiness.jpg using Guid(338929559a260bd44806aa88fa4f6122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b3adb2b7e4ff3a7364fd2e729e95f1') in 0.009462 seconds 
+  Import took 0.011516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Rock_1_Normal.jpg
+  artifactKey: Guid(a3d0a2143d68e2b4c84d8fa2319fcd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock_1_Normal.jpg using Guid(a3d0a2143d68e2b4c84d8fa2319fcd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3417fc46ca85bb1bd75540df8ba3bf') in 0.010962 seconds 
+  Import took 0.012748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Rock_1_Specular.jpg
+  artifactKey: Guid(c8bd041647b814e4280d10832e18c8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock_1_Specular.jpg using Guid(c8bd041647b814e4280d10832e18c8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ba8dfea4ce2f02b408b75216d0dfc7') in 0.008007 seconds 
+  Import took 0.009819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2611.136185 seconds.
+  path: Assets/Models And Textures
+  artifactKey: Guid(8a8231bbf6920c34faf8c5aace467088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models And Textures using Guid(8a8231bbf6920c34faf8c5aace467088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e82127c4bc1bfdf6777c201d42ece38') in 0.004452 seconds 
+  Import took 0.008179 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Domain Reload Profiling:
+	ReloadAssembly (723ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (582ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (221ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.4 MB.
+System memory in use after: 68.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1882.
+Total: 1.984600 ms (FindLiveObjects: 0.107500 ms CreateObjectMapping: 0.026600 ms MarkObjects: 1.831500 ms  DeleteObjects: 0.017800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 103.233900 seconds.
   path: Assets/BlinkShader.shader
   artifactKey: Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BlinkShader.shader using Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d385575fb5127976ed1248815dae699') in 0.006903 seconds 
-  Import took 0.008626 seconds .
+Start importing Assets/BlinkShader.shader using Guid(8eed181d088a01a4b8bb36a9deb154ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8441c7da666995cc0ef790000e394599') in 0.010942 seconds 
+  Import took 0.013025 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.552914 seconds.
-  path: Assets/SnowOnRock.shader
-  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a20d3c7afa549e6e101ffb2fcbe79a') in 0.011333 seconds 
-  Import took 0.013339 seconds .
+  Time since last request: 59.740394 seconds.
+  path: Assets/Transparancy.shader
+  artifactKey: Guid(531d0cc133de53e4987b4351673d57db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Transparancy.shader using Guid(531d0cc133de53e4987b4351673d57db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f155f2d10e9f1d70bf03a7f80f1ab94d') in 0.008659 seconds 
+  Import took 0.010504 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 78.571580 seconds.
-  path: Assets/SnowOnRock.shader
-  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3854dc1289d9963c2ac9aedf8df566') in 0.001726 seconds 
-  Import took 0.003562 seconds .
+  Time since last request: 26.186885 seconds.
+  path: Assets/Transparancy.shader
+  artifactKey: Guid(531d0cc133de53e4987b4351673d57db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Transparancy.shader using Guid(531d0cc133de53e4987b4351673d57db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3692b8b441a5f6353b04f07fc034eb') in 0.002411 seconds 
+  Import took 0.005213 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.329858 seconds.
-  path: Assets/SnowOnRock.shader
-  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82c832f934c23869776f985c04116ea') in 0.003691 seconds 
-  Import took 0.005476 seconds .
+  Time since last request: 24.639195 seconds.
+  path: Assets/Transparancy.shader
+  artifactKey: Guid(531d0cc133de53e4987b4351673d57db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Transparancy.shader using Guid(531d0cc133de53e4987b4351673d57db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f226a4978ad70ddbc7789c02a90bf8') in 0.004036 seconds 
+  Import took 0.006176 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.632987 seconds.
-  path: Assets/SnowOnRock.shader
-  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6409ef53dd445b14c5f545a40660330c') in 0.001617 seconds 
-  Import took 0.003336 seconds .
+  Time since last request: 608.747404 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(39afcfe0c2083c64bbb33f6e09fbdc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(39afcfe0c2083c64bbb33f6e09fbdc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fa5dc9592d63f69c7d76c7a4365eae') in 0.010304 seconds 
+  Import took 0.012600 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034917 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1031ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (863ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.7 MB.
+System memory in use after: 68.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1885.
+Total: 1.781400 ms (FindLiveObjects: 0.106000 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.601900 ms  DeleteObjects: 0.039200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1100.526310 seconds.
+  path: Assets/Transparancy.shader
+  artifactKey: Guid(531d0cc133de53e4987b4351673d57db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Transparancy.shader using Guid(531d0cc133de53e4987b4351673d57db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76153304bc7954e709bd7f6928680dac') in 0.015808 seconds 
+  Import took 0.018139 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.789542 seconds.
-  path: Assets/SnowOnRock.shader
-  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f64fb89978428f067048bcf756dbc3') in 0.002069 seconds 
-  Import took 0.004229 seconds .
+  Time since last request: 311.944589 seconds.
+  path: Assets/Lighting.shader
+  artifactKey: Guid(e65b3931e347f5c4babc4af093cbb3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lighting.shader using Guid(e65b3931e347f5c4babc4af093cbb3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4534071ff0eec4b0ec3ca4178a9acd8') in 0.008668 seconds 
+  Import took 0.011099 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.322047 seconds.
-  path: Assets/SnowOnRock.shader
-  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2704dd3847892e5acfa61d0d22b4262') in 0.005356 seconds 
-  Import took 0.007319 seconds .
+  Time since last request: 1906.081993 seconds.
+  path: Assets/Lighting.shader
+  artifactKey: Guid(e65b3931e347f5c4babc4af093cbb3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lighting.shader using Guid(e65b3931e347f5c4babc4af093cbb3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d896330de2dfc28a8fcfc3ce40b5c35') in 0.002015 seconds 
+  Import took 0.004410 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.996969 seconds.
-  path: Assets/SnowOnRock.shader
-  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a432ba8c525c995c5a31df047d300d07') in 0.001583 seconds 
-  Import took 0.003268 seconds .
+  Time since last request: 8.602151 seconds.
+  path: Assets/Lighting.shader
+  artifactKey: Guid(e65b3931e347f5c4babc4af093cbb3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lighting.shader using Guid(e65b3931e347f5c4babc4af093cbb3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ca9bf2cb222fc342e87fdfa4f5e7f1') in 0.003264 seconds 
+  Import took 0.005023 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 78.954011 seconds.
-  path: Assets/SnowOnRock.shader
-  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5905fac257a4502d87db9675954607') in 0.001563 seconds 
-  Import took 0.003423 seconds .
+  Time since last request: 13.335712 seconds.
+  path: Assets/Lighting.shader
+  artifactKey: Guid(e65b3931e347f5c4babc4af093cbb3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lighting.shader using Guid(e65b3931e347f5c4babc4af093cbb3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9918a6493b2f0ad8af9e8a37e8345a') in 0.009213 seconds 
+  Import took 0.012169 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.036366 seconds.
-  path: Assets/SnowOnRock.shader
-  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f362a7b23ec2f504f59a57f9d2c7f32') in 0.003613 seconds 
-  Import took 0.006071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.722105 seconds.
-  path: Assets/SnowOnRock.shader
-  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00f61dbb6ee845cf91a1284255e9c60') in 0.001653 seconds 
-  Import took 0.003531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.192382 seconds.
-  path: Assets/SnowOnRock.shader
-  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dbb5ff4dc9e5ae0b9997d75b9c01c0') in 0.004149 seconds 
-  Import took 0.005978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.035797 seconds.
-  path: Assets/SnowOnRock.shader
-  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916beefdac23f7977848532af6519a05') in 0.001543 seconds 
-  Import took 0.003253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.333411 seconds.
-  path: Assets/SnowOnRock.shader
-  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e60e1ec32ec7b929a05bfbc7f2f88c') in 0.003383 seconds 
-  Import took 0.005581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.634063 seconds.
-  path: Assets/SnowOnRock.shader
-  artifactKey: Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SnowOnRock.shader using Guid(a144e838021d60748b259ea5db60b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8514454ebaa38ad76957b7b8bcd6b96') in 0.004413 seconds 
-  Import took 0.006432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2992.942609 seconds.
-  path: Assets/Snow Texture.jpg
-  artifactKey: Guid(e33f5a1461ed98842a4a3f1c42806017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snow Texture.jpg using Guid(e33f5a1461ed98842a4a3f1c42806017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f808cfe00393b902714f9b3b8504d852') in 0.041894 seconds 
-  Import took 0.044180 seconds .
+  Time since last request: 1042.434937 seconds.
+  path: Assets/Lighting.shader
+  artifactKey: Guid(e65b3931e347f5c4babc4af093cbb3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lighting.shader using Guid(e65b3931e347f5c4babc4af093cbb3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d380439f60fe9f3d9879a8fc8ca2c4') in 0.002318 seconds 
+  Import took 0.004939 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
